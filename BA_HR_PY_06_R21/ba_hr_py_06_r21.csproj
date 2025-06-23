@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FC07700-360C-4FC2-9087-46E7032CAC6E}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>BA_HR_PY_06_R21</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Infocom.Allegro.HR</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AllegroClassLibrary">
+      <Name>AllegroClassLibrary</Name>
+      <HintPath>..\..\..\bin\AllegroClassLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="allegro_bl_cm_ms">
+      <Name>allegro_bl_cm_ms</Name>
+      <HintPath>..\..\..\bin\allegro_bl_cm_ms.dll</HintPath>
+    </Reference>
+    <Reference Include="allegro_bl_hr_ms">
+      <Name>allegro_bl_hr_ms</Name>
+      <HintPath>..\..\..\bin\allegro_bl_hr_ms.dll</HintPath>
+    </Reference>
+    <Reference Include="allegro_bl_hr_py">
+      <Name>Allegro_bl_hr_py</Name>
+      <HintPath>..\..\..\bin\Allegro_bl_hr_py.dll</HintPath>
+    </Reference>
+    <Reference Include="allegro_if_cm_ms">
+      <Name>allegro_if_cm_ms</Name>
+      <HintPath>..\..\..\bin\allegro_if_cm_ms.dll</HintPath>
+    </Reference>
+    <Reference Include="allegro_if_hr_ms">
+      <Name>allegro_if_hr_ms</Name>
+      <HintPath>..\..\..\bin\allegro_if_hr_ms.dll</HintPath>
+    </Reference>
+    <Reference Include="allegro_web_cm_ms">
+      <Name>allegro_web_cm_ms</Name>
+      <HintPath>..\..\..\bin\allegro_web_cm_ms.dll</HintPath>
+    </Reference>
+    <Reference Include="Infocom.Allegro.MyComp">
+      <Name>Infocom.Allegro.MyComp</Name>
+      <HintPath>..\..\..\bin\Infocom.Allegro.MyComp.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <Name>System.Core</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <Name>BouncyCastle.Crypto</Name>
+      <HintPath>..\..\..\bin\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Gcef.Data.DataEngine">
+      <Name>Gcef.Data.DataEngine</Name>
+      <HintPath>..\..\..\bin\Gcef.Data.DataEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Gcef.Data.ExpressionInfo">
+      <Name>Gcef.Data.ExpressionInfo</Name>
+      <HintPath>..\..\..\bin\Gcef.Data.ExpressionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Gcef.Data.VBFunctionLib">
+      <Name>Gcef.Data.VBFunctionLib</Name>
+      <HintPath>..\..\..\bin\Gcef.Data.VBFunctionLib.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Chart">
+      <Name>GrapeCity.ActiveReports.Chart</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Core.DataProviders">
+      <Name>GrapeCity.ActiveReports.Core.DataProviders</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Core.DataProviders.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Core.Drawing.Gc">
+      <Name>GrapeCity.ActiveReports.Core.Drawing.Gc</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Core.Drawing.Gc.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Core.Drawing.Gdi">
+      <Name>GrapeCity.ActiveReports.Core.Drawing.Gdi</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Core.Drawing.Gdi.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Core.Export.Image.Page">
+      <Name>GrapeCity.ActiveReports.Core.Export.Image.Page</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Core.Export.Image.Page.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Core.Export.Pdf.Page">
+      <Name>GrapeCity.ActiveReports.Core.Export.Pdf.Page</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Core.Export.Pdf.Page.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Core.Rdl">
+      <Name>GrapeCity.ActiveReports.Core.Rdl</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Core.Rdl.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Core.Rendering">
+      <Name>GrapeCity.ActiveReports.Core.Rendering</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Core.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports">
+      <Name>GrapeCity.ActiveReports</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Document">
+      <Name>GrapeCity.ActiveReports.Document</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Design.Win">
+      <Name>GrapeCity.ActiveReports.Design.Win</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Design.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Export.Image">
+      <Name>GrapeCity.ActiveReports.Export.Image</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Export.Image.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Export.Pdf">
+      <Name>GrapeCity.ActiveReports.Export.Pdf</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Export.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Export.Rdf">
+      <Name>GrapeCity.ActiveReports.Export.Rdf</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Export.Rdf.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Interop">
+      <Name>GrapeCity.ActiveReports.Interop</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Serializer">
+      <Name>GrapeCity.ActiveReports.Serializer</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Serializer.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.ActiveReports.Viewer.Win">
+      <Name>GrapeCity.ActiveReports.Viewer.Win</Name>
+      <HintPath>..\..\..\bin\GrapeCity.ActiveReports.Viewer.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Grapecity.DataVisualization">
+      <Name>Grapecity.DataVisualization</Name>
+      <HintPath>..\..\..\bin\Grapecity.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Documents.Common">
+      <Name>GrapeCity.Documents.Common</Name>
+      <HintPath>..\..\..\bin\GrapeCity.Documents.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Documents.Common.Windows">
+      <Name>GrapeCity.Documents.Common.Windows</Name>
+      <HintPath>..\..\..\bin\GrapeCity.Documents.Common.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Documents.DX.Windows">
+      <Name>GrapeCity.Documents.DX.Windows</Name>
+      <HintPath>..\..\..\bin\GrapeCity.Documents.DX.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Documents.Imaging">
+      <Name>GrapeCity.Documents.Imaging</Name>
+      <HintPath>..\..\..\bin\GrapeCity.Documents.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Documents.Pdf">
+      <Name>GrapeCity.Documents.Pdf</Name>
+      <HintPath>..\..\..\bin\GrapeCity.Documents.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.DpiAwareness">
+      <Name>Microsoft.VisualStudio.DpiAwareness</Name>
+      <HintPath>..\..\..\bin\Microsoft.VisualStudio.DpiAwareness.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Name>Newtonsoft.Json</Name>
+      <HintPath>..\..\..\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <Name>System.Buffers</Name>
+      <HintPath>..\..\..\bin\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <Name>System.Memory</Name>
+      <HintPath>..\..\..\bin\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <Name>System.Numerics.Vectors</Name>
+      <HintPath>..\..\..\bin\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <Name>System.Runtime.CompilerServices.Unsafe</Name>
+      <HintPath>..\..\..\bin\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <Name>System.ValueTuple</Name>
+      <HintPath>..\..\..\bin\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Name>System.Runtime.Serialization</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Drawing.Design">
+      <Name>System.Drawing.Design</Name>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <Name>System.Numerics</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BA_HR_PY_06_R21.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rpt\HR_PY_03_R52.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rpt\HR_PY_03_R62.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rpt\HR_PY_03_R99.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="rpt\HR_PY_03_R52.resx">
+      <DependentUpon>HR_PY_03_R52.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt\HR_PY_03_R62.resx">
+      <DependentUpon>HR_PY_03_R62.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt\HR_PY_03_R99.resx">
+      <DependentUpon>HR_PY_03_R99.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
